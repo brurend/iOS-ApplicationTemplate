@@ -56,10 +56,10 @@
 		95C984C71E1580B0004C955A = {
 			isa = PBXGroup;
 			children = (
-				95C984D21E1580B0004C955A /* iOS-ApplicationTemplate */,
-				95C984D11E1580B0004C955A /* Products */,
-				0BFE904527C7C4892313BC31 /* Pods */,
 				D0589E636B7E6F9AF17BEB14 /* Frameworks */,
+				0BFE904527C7C4892313BC31 /* Pods */,
+				95C984D11E1580B0004C955A /* Products */,
+				95C984D21E1580B0004C955A /* iOS-ApplicationTemplate */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,15 +74,15 @@
 		95C984D21E1580B0004C955A /* iOS-ApplicationTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				95C984EA1E1583BC004C955A /* AppDelegate */,
+				95C984EB1E1583C1004C955A /* Constants */,
+				95C984ED1E1583F3004C955A /* Controllers */,
+				95C984EF1E158408004C955A /* Models */,
+				95C984EC1E1583ED004C955A /* Networking */,
+				95C984EE1E1583F7004C955A /* Storyboards */,
+				95C984D31E1580B0004C955A /* Supporting Files */,
 				95C984F11E15846D004C955A /* Utils */,
 				95C984F01E15840C004C955A /* Views */,
-				95C984EF1E158408004C955A /* Models */,
-				95C984EE1E1583F7004C955A /* Storyboards */,
-				95C984ED1E1583F3004C955A /* Controllers */,
-				95C984EC1E1583ED004C955A /* Networking */,
-				95C984EB1E1583C1004C955A /* Constants */,
-				95C984EA1E1583BC004C955A /* AppDelegate */,
-				95C984D31E1580B0004C955A /* Supporting Files */,
 			);
 			path = "iOS-ApplicationTemplate";
 			sourceTree = "<group>";
@@ -91,11 +91,12 @@
 			isa = PBXGroup;
 			children = (
 				95C984DF1E1580B0004C955A /* Assets.xcassets */,
-				95C984E11E1580B0004C955A /* LaunchScreen.storyboard */,
 				95C984E41E1580B0004C955A /* Info.plist */,
+				95C984E11E1580B0004C955A /* LaunchScreen.storyboard */,
 				95C984D41E1580B0004C955A /* main.m */,
 			);
 			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		95C984EA1E1583BC004C955A /* AppDelegate */ = {
@@ -105,6 +106,7 @@
 				95C984D71E1580B0004C955A /* AppDelegate.m */,
 			);
 			name = AppDelegate;
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		95C984EB1E1583C1004C955A /* Constants */ = {
@@ -112,6 +114,7 @@
 			children = (
 			);
 			name = Constants;
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		95C984EC1E1583ED004C955A /* Networking */ = {
@@ -119,6 +122,7 @@
 			children = (
 			);
 			name = Networking;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		95C984ED1E1583F3004C955A /* Controllers */ = {
@@ -128,6 +132,7 @@
 				95C984DA1E1580B0004C955A /* ViewController.m */,
 			);
 			name = Controllers;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		95C984EE1E1583F7004C955A /* Storyboards */ = {
@@ -136,6 +141,7 @@
 				95C984DC1E1580B0004C955A /* Main.storyboard */,
 			);
 			name = Storyboards;
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 		95C984EF1E158408004C955A /* Models */ = {
@@ -143,6 +149,7 @@
 			children = (
 			);
 			name = Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		95C984F01E15840C004C955A /* Views */ = {
@@ -150,6 +157,7 @@
 			children = (
 			);
 			name = Views;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		95C984F11E15846D004C955A /* Utils */ = {
@@ -157,6 +165,7 @@
 			children = (
 			);
 			name = Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		D0589E636B7E6F9AF17BEB14 /* Frameworks */ = {
@@ -305,6 +314,7 @@
 				95C984DD1E1580B0004C955A /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		95C984E11E1580B0004C955A /* LaunchScreen.storyboard */ = {
@@ -313,6 +323,7 @@
 				95C984E21E1580B0004C955A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -414,7 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PN7U9JJPAS;
-				INFOPLIST_FILE = "iOS-ApplicationTemplate/Info.plist";
+				INFOPLIST_FILE = "iOS-ApplicationTemplate/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brurend.iOS-ApplicationTemplate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,7 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PN7U9JJPAS;
-				INFOPLIST_FILE = "iOS-ApplicationTemplate/Info.plist";
+				INFOPLIST_FILE = "iOS-ApplicationTemplate/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brurend.iOS-ApplicationTemplate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
